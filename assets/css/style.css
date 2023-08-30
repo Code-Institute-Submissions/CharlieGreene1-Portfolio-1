@@ -16,5 +16,17 @@ p {
 }
 
 footer {
-    
+    text-align: center;
+    color: brown;
+    text-orientation: sideways-right;
+    text-shadow: 2px black;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+#divfooter {
+    padding-bottom: 20px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

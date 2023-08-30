@@ -1,0 +1,20 @@
+/* styles.css */
+.blue-heading {
+    color: blue;
+    font-size: 24px;
+}
+
+.custom-paragraph {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    background-image: "C:\Users\student\Desktop\WORLD WAR II FOLDER\Images Folder\img (1).jpg;>"
+        background-size: cover;
+    /* Adjust how the image covers the container */
+    background-repeat: no-repeat;
+    /* Prevent image from repeating */
+    background-position: center center;
+    /* Position the image in the center */
+}

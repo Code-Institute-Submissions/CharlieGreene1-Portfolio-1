@@ -45,14 +45,70 @@
 <body>
 
     <h1><strong><u>The History of World War II</strong></u></h1>
-
     <style>
-        h1 {
+        h1,
+        h2,
+        h3 {
             font-size: xx-large;
-            font-weight: 500;
-            text-emphasis-color: red;
+            text-align: center;
+            color: red;
             font-family: Cambria, Georgia, Times, serif;
         }
+
+        p {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: normal;
+        color: black;
+        text-align: justify;
+        padding-left: 20px;
+        padding-right: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+ }
+
+
+
+
+ .video {
+
+     width: 100%;
+     position: flex;
+     columns: 4 2;
+     /* Four videos in a row with 20px gap */
+ }
+
+ iframe {
+    width: 50%;
+    height: 100%;
+    columns: 4;
+    grid-row: 1;
+    padding-left: 25%;
+ }
+
+ .narrative {
+    text-align: center;
+    color: red;
+ }
+
+ body{
+    background-color: lightgray;
+ }
+
+  .img {
+     padding-left: 45px;
+ }
+
+.navbar {
+    font-size: x-large;
+    text-align: center;
+
+ }
+
+ .navbar:hover {
+    color: yellow;
+    transition: transform 100ms;
+    transform: scale(1.25);
+ }
     </style>
 
     <div class="img">
@@ -117,41 +173,6 @@
 
     </div>
 
-    <hr>
-
-    <style>
-        .video-container {
-
-            padding-left: 5px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 5px;
-        }
-
-        .video {
-
-            width: calc(25% - 20px);
-            position: flex;
-            /* Four videos in a row with 20px gap */
-        }
-
-        .video iframe {
-            width: 100%;
-            height: auto;
-        }
-
-        .video .narrative {
-            padding-top: 5px;
-            margin-top: 10px;
-            text-align: center;
-            white-space: 5px;
-            font-size: 16px;
-            font-style: italic;
-            font-family: Georgia, Times, serif;
-            color: black;
-        }
-    </style>
-
     <h1><b>World War II in motion pictures</b></h1>
 
     <div class="video-container" width="100%">
@@ -199,8 +220,6 @@
             </div>
 
             <div>
-
-                <hr>
 
                 <h1><u><b><i><strong>The War in North Africa</strong></i></b></u></h1>
 
@@ -355,43 +374,6 @@
                     height="300">
 
             </div>
-
-            <style>
-                h1 {
-                    text-align: center;
-                    margin-left: 15px;
-                    font-family: Cambria, Cochin, Georgia, Times, serif;
-                    font-style: italic;
-                    font-size: xx-large;
-                    color: red;
-                }
-
-                h2 {
-                    text-align: center;
-                    margin-left: 15px;
-                    font-family: Cambria, Cochin, Georgia, Times, serif;
-                    font-style: normal;
-                    font-size: x-large;
-                    color: blue;
-                }
-
-                h3 {
-                    text-align: center;
-                    margin-left: 15px;
-                    font-family: Cambria, Cochin, Georgia, Times, serif;
-                    font-style: italic;
-                    font-size: large;
-                    color: orange;
-                }
-
-                h4 {
-                    text-align: center;
-                    margin-left: 15px;
-                    font-family: Cambria, Cochin, Georgia, Times, serif;
-                    font-style: italic;
-                    font-size: large;
-                    color: brown;
-                }
 
                 </div>
             </style>

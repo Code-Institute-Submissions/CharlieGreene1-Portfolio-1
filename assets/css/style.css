@@ -1,28 +1,63 @@
-body {
-    margin-left: 45px;
+h1 {
+    margin-left: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, serif;
+    font-style: italic;
+    font-size: large;
+    color: red;
 }
 
-h1{
+h2 {
+    margin-left: 25px;
+    font-size: large;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
 
+h3 {
+    margin-left: 25px;
+    font-size: large;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: orange
+}
+
+h4 {
+    margin-left: 25px;
+    font-size: large;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+h5 {
+    margin-left: 25px;
+    font-size: large;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cadetblue;
+}
+
+h6 {
+    margin: left 25px;
+    font-size: large;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkorchid;
+}
+
+body {
+    color: yellow
 }
 
 p {
-    margin-right: 45px;
-    text-align: justify;
-}
 
-footer {
-    text-align: center;
-    color: brown;
-    text-orientation: sideways-right;
-    text-shadow: 2px black;
-    margin-top: 25px;
-    margin-bottom: 10px;
-    font-size: larger;
-}
-
-#divfooter {
-    padding-bottom: 20px;
-    font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: black;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
 }

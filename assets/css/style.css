@@ -1,81 +1,85 @@
- h1 {
-     font-size: xx-large;
-     font-weight: 500;
-     color: red;
-     font-family: Cambria, Georgia, Times, serif;
- }
+h1 {
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+    font-family: Cambria, Georgia, Times, serif;
+}
 
- h2 {
-     text-align: center;
-     margin-left: 15px;
-     font-family: Cambria, Cochin, Georgia, Times, serif;
-     font-style: normal;
-     font-size: x-large;
-     color: blue;
- }
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: black;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
- h3 {
-     text-align: center;
-     margin-left: 15px;
-     font-family: Cambria, Cochin, Georgia, Times, serif;
-     font-style: italic;
-     font-size: large;
-     color: orange;
- }
 
- h4 {
-     text-align: center;
-     margin-left: 15px;
-     font-family: Cambria, Cochin, Georgia, Times, serif;
-     font-style: italic;
-     font-size: large;
-     color: brown;
- }
 
- p {
-     font-family: Georgia, 'Times New Roman', Times, serif;
-     font-style: normal;
-     color: black;
-     text-align: justify;
-     padding-left: 20px;
-     padding-right: 10px;
-     margin-left: 50px;
-     margin-right: 50px;
- }
 
- .narrative {
+.video {
+
+    width: 100%;
+    position: flex;
+    columns: 4 2;
+    /* Four videos in a row with 20px gap */
+}
+
+iframe {
+    width: 50%;
+    height: 100%;
+    columns: 4;
+    grid-row: 1;
+    padding-left: 25%;
+}
+
+.narrative {
     text-align: center;
     color: red;
- }
+}
 
- .video-container {
+body {
+    background-color: lightgray;
+}
 
-     padding-left: 5px;
-     display: flex;
-     flex-wrap: wrap;
-     gap: 5px;
- }
+.img {
+    padding-left: 45px;
+}
 
- .video {
+.navbar {
+    text-align: center;
+    align-items: center;
+}
 
-     width: calc(25% - 20px);
-     position: flex;
-     columns: 2 4;
-     /* Four videos in a row with 20px gap */
- }
+.navbar a {
+    float: center;
+    padding-left: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: red;
+    text-decoration: none;
+    font-size: 45px;
+    font-style: italic;
+}
 
- .video .narrative {
-     padding-top: 5px;
-     margin-top: 10px;
-     text-align: center;
-     white-space: 5px;
-     font-size: 16px;
-     font-style: italic;
-     font-family: Georgia, Times, serif;
-     color: black;
- }
+.navbar a:hover {
+    color: yellow;
+}
 
- .img {
-     padding-left: 45px;
-     padding-right: 45px;
- }
+h2,
+h3 {
+    color: orange;
+    font-size: xx-large;
+    text-align: center;
+    font-family: Cambria, Georgia, Times, serif;
+}
+
+footer {
+    text-align: center;
+    color: yellow;
+    font-family: Cambria, Georgia;
+    padding: 20px;
+    font-size: 22px;
+}

@@ -61,3 +61,13 @@ p {
     margin-left: 50px;
     margin-right: 50px;
 }
+
+.video {
+    position: flex;
+    width: 100%;
+}
+
+.video-container {
+    position: flex;
+    width: 100%;
+}
